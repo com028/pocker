@@ -70,6 +70,7 @@ func Shuffle(cards []int) {
 	fmt.Println("%v", cards)
 }
 
+//加注释
 func main() {
 	rand.Seed(time.Now().UnixNano())
 	cards := []int{2, 2, 0, 1, 1}
